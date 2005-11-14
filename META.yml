@@ -1,6 +1,6 @@
 ---
 name: Test-Unix-User
-version: 0.01
+version: 0.02
 author:
   - Nik Clayton <nik@FreeBSD.org>
 abstract: Test::Builder based tests for Unix users and home directories
@@ -12,5 +12,5 @@ requires:
 provides:
   Test::Unix::User:
     file: lib/Test/Unix/User.pm
-    version: 0.01
+    version: 0.02
 generated_by: Module::Build version 0.2611

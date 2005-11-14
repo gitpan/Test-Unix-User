@@ -13,8 +13,9 @@ my $builder = Module::Build->new(
 	'Test::Tester' => 0.102,
     },
     add_to_cleanup      => [ 'Test-Unix-User-*' ],
-    'create_readme',
-    'sign',
+    create_readme	=> 1,
+    sign		=> 1,
+    create_makefile_pl	=> 'passthrough',
 );
 
 $builder->create_build_script();
